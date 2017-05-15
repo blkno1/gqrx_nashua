@@ -1,8 +1,8 @@
 # Tag name          ;  color
-Broadcast FM        ; #c0c0c0
-Public Safety       ; #c0c0c0
-Aviation            ; #c0c0c0
 ham repeater        ; #c0c0c0
+Broadcast FM        ; #c0c0c0
+Aviation            ; #c0c0c0
+Public Safety       ; #c0c0c0
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
     92500000; Alt 92.5                 ; WFM (stereo)        ;     160000; Broadcast FM
@@ -11,7 +11,6 @@ ham repeater        ; #c0c0c0
    125100000; Nashua WX                ; AM                  ;      10000; Aviation
    133200000; Nashua Tower             ; AM                  ;      10000; Aviation
    144390000; APRS                     ; Narrow FM           ;      10000; Aviation
-   146460000; DVAP 146.46              ; Narrow FM           ;      12000; ham repeater
    146685000; N1QC Bedford             ; Narrow FM           ;      10000; ham repeater
    146730000; N1IMO Hollis             ; Narrow FM           ;      10000; ham repeater
    146790000; N1IMO Pitsfield          ; Narrow FM           ;      10000; ham repeater
