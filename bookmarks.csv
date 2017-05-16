@@ -1,16 +1,22 @@
 # Tag name          ;  color
-ham repeater        ; #c0c0c0
-Broadcast FM        ; #c0c0c0
-Aviation            ; #c0c0c0
 Public Safety       ; #c0c0c0
+ham repeater        ; #c0c0c0
+Aviation            ; #c0c0c0
+satelite            ; #c0c0c0
+Broadcast FM        ; #c0c0c0
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
     92500000; Alt 92.5                 ; WFM (stereo)        ;     160000; Broadcast FM
    101100000; Rock 101                 ; WFM (stereo)        ;     160000; Broadcast FM
    124900000; Boston Approach/Depart   ; AM                  ;      10000; Aviation
    125100000; Nashua WX                ; AM                  ;      10000; Aviation
+   131550000; ACARS                    ; AM                  ;      20000; Aviation
    133200000; Nashua Tower             ; AM                  ;      10000; Aviation
+   137100000; NOAA - 19                ; WFM (mono)          ;      30000; satelite
+   137620000; NOAA - 15                ; WFM (mono)          ;      30000; satelite
+   137912500; NOAA - 18                ; WFM (mono)          ;      30000; satelite
    144390000; APRS                     ; Narrow FM           ;      10000; Aviation
+   145935000; AO-73                    ; WFM (mono)          ;      30000; satelite
    146685000; N1QC Bedford             ; Narrow FM           ;      10000; ham repeater
    146730000; N1IMO Hollis             ; Narrow FM           ;      10000; ham repeater
    146790000; N1IMO Pitsfield          ; Narrow FM           ;      10000; ham repeater
@@ -37,6 +43,7 @@ Public Safety       ; #c0c0c0
    443400000; W1LO Goffstown           ; Narrow FM           ;      10000; ham repeater
    443500000; N1IMO Hollis             ; Narrow FM           ;      10000; ham repeater
    444200000; N1OB Merrimack           ; Narrow FM           ;      10000; ham repeater
+   444300000; K3MT DMR Goffstown       ; Narrow FM           ;      17000; ham repeater
    444800000; K1SI Nashua              ; Narrow FM           ;      10000; ham repeater
    448825000; N1IMO Nashua             ; Narrow FM           ;       9600; ham repeater
    449375000; N1IMO Peterborough       ; Narrow FM           ;      10000; ham repeater
