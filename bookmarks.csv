@@ -1,11 +1,11 @@
 # Tag name          ;  color
-ham 220             ; #c0c0c0
-Aviation            ; #c0c0c0
 satelite            ; #c0c0c0
-ham 2M              ; #c0c0c0
-ham 440             ; #c0c0c0
 Broadcast FM        ; #c0c0c0
+ham 2M              ; #c0c0c0
+ham 220             ; #c0c0c0
 Public Safety       ; #c0c0c0
+Aviation            ; #c0c0c0
+ham 440             ; #c0c0c0
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
     92500000; Alt 92.5                 ; WFM (stereo)        ;     160000; Broadcast FM
@@ -38,11 +38,15 @@ Public Safety       ; #c0c0c0
    147135000; W1AKS Goffstown          ; Narrow FM           ;      10000; ham 2M
    147269000; 147.269                  ; Narrow FM           ;       9800; ham 2M
    147330000; N1SM Goffstown           ; Narrow FM           ;      10000; ham 2M
+   151250000; Nashua Fire Dispatch     ; Narrow FM           ;       7200; Public Safety
    151460000; APD                      ; Narrow FM           ;      10000; Public Safety
    153890000; Greenville EMS           ; Narrow FM           ;      10000; Public Safety
-   153980000; MFD                      ; Narrow FM           ;      10000; Public Safety
+   153980000; Merrimack Fire 1         ; Narrow FM           ;      10000; Public Safety
+   154415000; Merrimack Fire 2         ; Narrow FM           ;      10000; Public Safety
+   154430000; 154.430 P25              ; Narrow FM           ;      10000; Public Safety
    155310000; BPD                      ; Narrow FM           ;      10000; Public Safety
-   155500000; MPD                      ; Narrow FM           ;      10000; Public Safety
+   155490000; 155.490 P25              ; Narrow FM           ;      10000; Public Safety
+   155500000; Merrimack Police         ; Narrow FM           ;      10000; Public Safety
    162525000; NOAA 162.525             ; Narrow FM           ;      26600; Public Safety
    162658500; NOAA 162.658.5           ; Narrow FM           ;      26600; Public Safety
    223260000; W1DIO Milford            ; Narrow FM           ;      10000; ham 220
